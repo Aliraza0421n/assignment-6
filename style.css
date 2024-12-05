@@ -1,69 +1,31 @@
-
-.btn-nav{
-    border: 1px solid black;
-    padding: 1px 30px;
-    border-radius: 30px;
-    display: inline-block;
+@font-face {
+    font-family: poppins;
+    src: url(poppins/Poppins-Medium.ttf);
 }
-.property{
-    background: rgb(193,222,232);
-    background: linear-gradient(90deg, rgba(193,222,232,1) 0%, rgba(251,217,185,1) 100%);
-    border-radius: 15px;
-    padding: 10px 30px;
-    height: auto;
-    width: 100%;
-   
 
-   
+
+body {
+    font-family: Poppins;
 }
-.search-bar{
+
+.back {
+    background: rgb(186, 227, 240);
+    background: linear-gradient(90deg, rgba(186, 227, 240, 1) 0%, rgba(251, 217, 185, 1) 100%);
     position: relative;
-    display: inline-block;
-}
-.search-bar input {
-    width: 300px;
-    border-radius: 20px;
-    outline: none;
-    border:1px solid rgba(161, 161, 161, 0.473) ;
-    padding: 13px 50px 13px 20px; 
+border-radius: 10px;
 }
 
-
-.search {
-    display: inline-block;
-    border: none;
-    background-color: #1f1f1f;
-    color: white;
-    padding: 12.6px 20px;
-    border-radius: 22px;
- position: relative;
- top: 0px;
- right: 90px;
-}
-
-.ghar {
-    position: relative;
-    top: 50px;
-    
-}
-.ghar img{
-    width: 100%;
-}
-
-@media only screen and (max-width:500px) {
-    .search {
-        position: relative;
-        top: -50.8px;
-        right: -212px;
+@media only screen and (max-width:566px) {
+    .back {
+width: 100%;
     }
 
-    .property {
-
-
+    .ghar {
+          display: none;
+           
     }
-        
-        
 }
-@media only screen and (min-width:720px , max-width:960px){
 
-}
+
+
+
